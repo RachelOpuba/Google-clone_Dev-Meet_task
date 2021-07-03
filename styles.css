@@ -232,7 +232,7 @@ input{
 }
     @media screen and (max-width: 620px){
         .logo{
-            height: 45px;
+            height: 55px;
         }
 
         .main{
@@ -295,16 +295,16 @@ input{
         @media screen and (max-width: 480px) {
 
             .nav-links a{
-                font-size: .4rem;    
+                font-size: .7rem;    
             }
 
             .dots {
-                height: 10px;
+                height: 20px;
                 padding: 0%;
             }
 
             .account{
-                height: 20px;
+                height: 30px;
                 padding: 0;
             }
             .main{
@@ -312,20 +312,20 @@ input{
             }
 
             .logo{
-                height: 25px;
+                height: 40px;
             }
 
             input{
                 padding: 2px;
-                width: 12rem;
+                width: 80%;
             }
 
             .input img{
                 height: 15px;
             }
             .input{
-                width: 15rem;
-                padding: 0;
+                width: 90%;
+                padding: .3rem;
                 margin-top: 10px;
             }
 
@@ -339,12 +339,12 @@ input{
         
             button{
                 padding: .2rem .3rem;
-                font-size: .3rem;
+                font-size: .5rem;
                 margin-bottom: .2rem;           
             }
 
             .main p{
-                font-size: .4rem;
+                font-size: .5rem;
             }
 
             .lang-text{
