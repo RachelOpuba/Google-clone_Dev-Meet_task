@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: .85rem;
+    color: rgb(39, 38, 38);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    position:
+}
+
+header{
+    width: 100vw;
+}
+
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-links ul li{
+    padding: 5px;
+    list-style: none;
+    padding-top: 0;
+    
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+}
+
+.nav-links .text:hover{
+    text-decoration: underline;
+    
+}
+
+.dots{
+    height: 20px;
+    padding: 5px;
+}
+
+.nav-links ul li img:hover{
+    background-color: rgb(233, 233, 241);
+    border-radius: 50%;
+
+}
+
+.account{
+    border-radius: 50%;
+    padding: 5px;
+    height: 35px;
+}
+
+.main{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    margin: 0 auto; 
+    margin-top: -20px; 
+    
+}
+
+.logo{
+    height: 90px;
+}
+
+input{
+    width: 30rem;
+    padding: .7rem;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    
+}
+
+.input{
+    width: 35rem;
+    padding: .2rem;
+    border: 1px solid rgba(226, 226, 253, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 50px;
+    
+    
+    
+}
+.input img{
+    height: 20px;
+    
+}
+
+.btn{
+    margin-top: 2rem;
+}
+
+.input:hover{
+    box-shadow: 0 0 7px 0;
+}
+
+button{
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    margin: .2rem;
+    margin-bottom: .8rem;
+    border-radius: 5px;
+    border: none;
+    color:rgb(53, 52, 52);;
+}
+
+.lang{
+    margin-left: 1rem;
+}
+
+.main p a{
+    text-decoration: none;
+}
+
+.main p a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgba(226, 226, 253, 0.35);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer{ 
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+   
+}
+
+.nigeria{
+    padding: 15px;
+}
+
+.sec-one ul, .sec-three ul{
+    display: flex;
+
+}
+ .sec-two {
+    display: flex;
+}
+
+
+.sec-two img{
+    height: 13px;
+    margin-top: 14px;
+    margin-right: 7px;
+}
+
+footer li{
+    list-style: none;
+    padding: 2px;
+    margin-left: 15px;
+}
+
+.sec-three li{
+    margin-right: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    
+    .logo{
+        height: 60px;
+    }
+    
+    .footer{
+        position: relative;
+        padding-top: 2rem;
+        font-size: .7rem;
+    }
+    .sec-two{
+        position: absolute;
+        margin-left: 40% ;
+        margin-right: 60%;
+        top: -5%;
+        width: 500px;
+}
+
+.sec-two img{
+    height: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.sec-three{
+    margin-right: 30px;
+}
+
+input{
+    width: 20rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    
+}
+
+.input{
+    width: 25rem;
+    padding: .1rem;
+}
+}
+    @media screen and (max-width: 620px){
+        .logo{
+            height: 45px;
+        }
+
+        .main{
+            font-size: .5rem;
+        }
+
+        .footer{
+            font-size: .58rem;
+        }
+
+        .nigeria{
+            font-size: .5rem;
+            padding: 5px
+        }
+
+        .sec-two img{
+            height: 7px;
+            margin-top: 6px;
+            margin-right: 3px;
+        }
+
+        .nav-links ul li{
+            padding: 5px;
+            font-size: .7rem;    
+        }
+
+        .input img{
+            height: 20px;
+            
+        }
+
+        input{
+            padding: 2px;
+            width: 14rem;
+        }
+        .input{
+            width: 18rem;
+            padding: 3px;
+            margin-top: 10px;
+        }
+        
+        .btn{
+            margin-top: 1rem;
+        }
+        
+        button{
+            padding: .3rem .5rem;
+            font-size: .7rem;
+            margin-bottom: .5rem;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .sec-three{
+            margin-right: 5px;
+            margin-left: -100px;
+            padding-left: -30px;
+        }
+
+        @media screen and (max-width: 480px) {
+
+            .nav-links a{
+                font-size: .4rem;    
+            }
+
+            .dots {
+                height: 10px;
+                padding: 0%;
+            }
+
+            .account{
+                height: 20px;
+                padding: 0;
+            }
+            .main{
+                margin-top: 10%;
+            }
+
+            .logo{
+                height: 25px;
+            }
+
+            input{
+                padding: 2px;
+                width: 12rem;
+            }
+
+            .input img{
+                height: 15px;
+            }
+            .input{
+                width: 15rem;
+                padding: 0;
+                margin-top: 10px;
+            }
+
+            .btn{
+                margin-top: .6rem;
+            }
+
+            .footer{
+                font-size: .4rem;
+            }
+        
+            button{
+                padding: .2rem .3rem;
+                font-size: .3rem;
+                margin-bottom: .2rem;           
+            }
+
+            .main p{
+                font-size: .4rem;
+            }
+
+            .lang-text{
+                font-size: .9rem;
+            }
+    
+            .lang-text span{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }  
+    
+        .sec-one{
+            margin-left: -25px;
+            width: 
+        }
+
+        footer li{
+            list-style: none;
+            padding: 1px;
+            margin-left: 2px;
+        }
+
+        .sec-three{
+            margin-right: 5px;
+            margin-left: -100px;
+            padding-left: -30px;
+        }
+
+        .sec-two{
+            margin-bottom: -60px;           
+        }
+
+    }
+
+
+    @media screen  and (max-width:230px){
+        .footer{
+            font-size: .2rem;
+        }
+    }
+
+    @media screen  and (max-width:175px){
+        .footer{
+            font-size: .15rem;
+        }
+    }
+
+  
